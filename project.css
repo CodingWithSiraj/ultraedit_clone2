@@ -1,0 +1,269 @@
+/* body{
+  background-color: rgb(222, 68, 68);
+} */
+.logo img {
+  width: 164px;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Segoe UI";
+}
+
+.right ul {
+  display: flex;
+  gap: 34px;
+}
+
+.right ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.right ul li span {
+  padding: 0 5px;
+}
+.bottom {
+  text-align: center;
+  transform: translateX(660px);
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin: 70px;
+  font-family: sans-serif;
+}
+.sec span img {
+  margin-left: 10px;
+}
+
+.sec p {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #222;
+  text-align: center;
+}
+.btn {
+  background: #00b6d1;
+  padding: 16px 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 750;
+  margin: 12px 0;
+  cursor: pointer;
+  width: 300px;
+  font-size: 15px;
+}
+.sec2 {
+  font-size: 48px;
+}
+.space {
+  padding: 0 5px;
+}
+.sec3 {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-170px);
+  margin: auto;
+}
+.sec3 img {
+  padding: 0 10px;
+  transform: translateY(22px);
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+.small {
+  font-size: 16px;
+}
+.big {
+  font-size: 25px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  height: 141vh;
+  width: 100vw;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 210px 210px 210px 210px;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  height: 169.8px;
+  width: 270px;
+  background-color: white;
+  border-radius: 7px;
+}
+.item2 {
+  font-size: 8px;
+}
+.box2 {
+  text-align: center;
+}
+.language2 {
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 46px;
+}
+.language {
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 18px;
+}
+.sub {
+  padding-bottom: 10px;
+}
+.button {
+  background: #5cb85c;
+  padding: 10px 12px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 12px 0;
+  cursor: pointer;
+  width: 180px;
+}
+.item {
+  font-weight: 10;
+}
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+}
+
+.info {
+  position: relative;
+  top: 5px;
+  left: 55vw;
+  background-color: white;
+  height: 35vh;
+  width: 22vw;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.shell {
+  text-align: center;
+  padding: 20px 20px;
+  color: #00b6d1;
+  font-weight: 500;
+  font-size: 24px;
+}
+.cen {
+  text-align: center;
+  color: #222;
+}
+.input {
+  position: relative;
+  left: 41px;
+  width: 250px;
+  height: 40px;
+  padding: 5px 5px 5px 8px;
+  margin-top: 5px;
+  border: 0.5px solid rgb(202, 198, 198);
+}
+.btn2 {
+  position: relative;
+  top: 50px;
+  left: 38px;
+  transform: translateY(-48px);
+  background: #00b6d1;
+  padding: 10px 12px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 12px 0;
+  cursor: pointer;
+  padding: 16px 0px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  width: 80%;
+  box-shadow: 0 12px 18px -6px rgba(77, 170, 242, 0.37);
+}
+.text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 220px;
+  width: 430px;
+  left: 300px;
+  font-size: 18px;
+}
+.part {
+  display: inline;
+}
+.part0 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.text2 {
+  color: white;
+  width: 80vw;
+  position: relative;
+  top: 100px;
+  left: 225px;
+}
+.crop {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.crop3 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.crop1 {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.crop2 {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.crop2 a {
+  text-decoration: none;
+  color: #00b6d1;
+  cursor: pointer;
+}
+.crop4 a {
+  text-decoration: none;
+  color: #00b6d1;
+  cursor: pointer;
+}
+.crop4 {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+    height: 288vh;
+    margin-left: 224px;
+    width: 314px;
+  }
+} */
